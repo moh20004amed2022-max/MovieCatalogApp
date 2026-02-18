@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.replit.movieapp'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.replit.movieapp"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
